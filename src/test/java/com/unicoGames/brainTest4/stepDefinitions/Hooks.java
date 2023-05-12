@@ -14,7 +14,6 @@ import java.util.Date;
 public class Hooks {
 
     protected AltDriver altDriver;
-
     public Hooks(){
         this.altDriver = new DriverManager().getAltDriver();
     }
