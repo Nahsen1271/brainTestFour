@@ -11,8 +11,9 @@ public class AllPages {
 
     private LevelPages levelPages;
     private HomePage homePage;
-    private SettingsPages settingsPages;
-    private ShopPage shopPage;
+
+
+    private GamePages gamePages;
 
 
 
@@ -23,6 +24,7 @@ public class AllPages {
         return levelPages;
     }
 
+
     public HomePage homePage(){
         if (homePage == null){
             homePage = new HomePage();
@@ -30,18 +32,12 @@ public class AllPages {
         return homePage;
     }
 
-    public SettingsPages settingsPages(){
-        if (settingsPages == null){
-            settingsPages = new SettingsPages();
-        }
-        return settingsPages;
-    }
 
-    public ShopPage shopPage(){
-        if (shopPage == null){
-            shopPage = new ShopPage();
+    public GamePages gamePages(){
+        if (gamePages == null){
+            gamePages = new GamePages();
         }
-        return shopPage;
+        return gamePages;
     }
 
 }

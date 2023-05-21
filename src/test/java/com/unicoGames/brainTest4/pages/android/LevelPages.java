@@ -23,12 +23,6 @@ public class LevelPages extends BasePage {
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject letsGoButton2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Text4").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//
-    }
     public AltObject yesButton(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "YesButton").
                 isEnabled(true).build();
@@ -91,7 +85,7 @@ public class LevelPages extends BasePage {
         return altDriver.waitForObject(params);// buttonNext
     }
     public AltObject buttonNext(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "buttonNext").
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ButtonNext").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
         return altDriver.waitForObject(params);

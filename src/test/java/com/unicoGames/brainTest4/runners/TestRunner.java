@@ -1,9 +1,9 @@
 package com.unicoGames.brainTest4.runners;
 
-import com.unicoGames.brainTest3.utilities.DriverManager;
-import com.unicoGames.brainTest3.utilities.GlobalParams;
-import com.unicoGames.brainTest3.utilities.ReusableMethods;
-import com.unicoGames.brainTest3.utilities.ServerManager;
+import com.unicoGames.brainTest4.utilities.DriverManager;
+import com.unicoGames.brainTest4.utilities.GlobalParams;
+import com.unicoGames.brainTest4.utilities.ReusableMethods;
+import com.unicoGames.brainTest4.utilities.ServerManager;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.BeforeClass;
